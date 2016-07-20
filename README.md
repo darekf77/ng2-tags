@@ -1,4 +1,4 @@
-## ng2-tags ##
+## ng2-tags (not ready yet) ##
 
 
 
