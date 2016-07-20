@@ -1,0 +1,50 @@
+{
+  "name": "ng2-tags",
+  "version": "0.0.1",
+  "description": "Tags for angular 2",
+  "main": "ng2-tags.ts",
+  "dependencies": {
+    "awesome-typescript-loader": "^0.17.0",
+    "core-js": "^2.4.0",
+    "es6-promise": "^3.2.1",
+    "jasmine-core": "^2.4.1",
+    "istanbul-instrumenter-loader": "^0.2.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma": "^0.13.22",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.8",
+    "karma-mocha-reporter": "^2.0.3",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "source-map-loader": "^0.1.5",
+    "ts-helpers": "^1.1.1",
+    "tslint-loader": "^2.1.4",
+    "typescript": "^1.8.10",
+    "tslint": "^3.10.2",
+    "webpack": "^1.13.0",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "karma test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angularclass/darekf77/ng2-tags.git"
+  },
+  "keywords": [
+    "anular2",
+    "angular 2",
+    "tags",
+    "ng2-tags",
+    "selectize"
+  ],
+  "author": "Dariusz Filipiak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darekf77/ng2-tags.git"
+  },
+  "homepage": "https://github.com/darekf77/ng2-tags#readme"
+}
