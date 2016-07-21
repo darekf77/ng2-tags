@@ -3,7 +3,7 @@ import {NgControl} from '@angular/common';
 import {isBlank} from '@angular/common/src/facade/lang';
 import {TagInputItemComponent} from '../tag';
 
-const id = 'tag-input';
+const id = 'tags';
 
 @Component({
     selector: id,

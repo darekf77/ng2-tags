@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
-const id = 'tag-input-item';
+const id = 'tag';
 
 @Component({
   selector: id,
