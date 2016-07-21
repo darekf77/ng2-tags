@@ -1,7 +1,7 @@
 import {Component, HostBinding, Input} from '@angular/core';
 import {NgControl} from '@angular/common';
 import {isBlank} from '@angular/common/src/facade/lang';
-import {TagInputItemComponent} from './tag-input-item.component';
+import {TagInputItemComponent} from '../tag';
 
 const id = 'tag-input';
 
