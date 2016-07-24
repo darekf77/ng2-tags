@@ -6,6 +6,9 @@
 
 :host.ng2-tag-input-focus {
     box-shadow: 0 2px #0d8bff;
+    input {
+        outline: none !important;
+    }
 }
 
 .ng2-tag-input-field {
@@ -14,3 +17,4 @@
     box-shadow: none;
     border: 0;
 }
+

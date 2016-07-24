@@ -1,22 +1,23 @@
-## ng2-tags (not ready yet) ##
-
+## ng2-tags ##
 
 
 Taggs for angular 2 apps.
 
 // In one of your application components
-import {TagInputComponent} from 'angular2-tag-input';
+import {TagInputComponent} from 'ng2-tags/ng2-tags';
 
 @Component({
     selector: 'your-component-selector',
     directives: [TagInputComponent] // Add to directives
-    template: `<tag-input></tag-input>`
+    template: `<tags placeholder="Expand Range" 
+    [(ngModelArray)]="data.contact_range" delimiterCode="188"   >
+                </tags>`
 })
 ```
 
 ## API
 ### Inputs
-- `ngModel` : `string[]` - **Required** Property to store the resulting tag list in.
+- `ngModelArray` : `string[]` - **Required** Property to store the resulting tag list in.
 - `placeholder` : `string` - **Default**: ``'Add a tag'`` - Placeholder for the `<input>` tag.
 - `delimiterCode` : `string` - **Default**: ``'188'`` - ASCII keycode to split tags on. Defaults to comma.
 - `addOnBlur` : `boolean` - **Default**: `true` - Whether to attempt to add a tag when the input loses focus.

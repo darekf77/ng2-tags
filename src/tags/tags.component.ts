@@ -9,11 +9,12 @@ const id = 'tags';
     selector: id,
     template: require(`./${id}.component.html`),
     styles: [require(`./${id}.component.scss`)],
-    directives: [TagInputItemComponent]
+    directives: [TagInputItemComponent],
+    providers: [NgControl]
 })
 export class TagInputComponent {
     @Input() placeholder: string = 'Add a tag';
-    @Input() ngModel: string[];
+    @Input() ngModelArray: string[];
     @Input() delimiterCode: string = '188';
     @Input() addOnBlur: boolean = true;
     @Input() addOnEnter: boolean = true;
@@ -31,7 +32,7 @@ export class TagInputComponent {
     }
 
     ngOnInit() {
-        if (this.ngModel) this.tagsList = this.ngModel;
+        if (this.ngModelArray) this.tagsList = this.ngModelArray;
         this.onChange(this.tagsList);
         this.delimiter = parseInt(this.delimiterCode);
     }
@@ -133,3 +134,4 @@ export class TagInputComponent {
         this.onTouched = fn;
     }
 }
+

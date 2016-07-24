@@ -1,10 +1,10 @@
-<tag-input-item
+<tag
     [text]="tag"
     [index]="index"
     [selected]="selectedTag === index"
     (tagRemoved)="_removeTag($event)"
-    *ngFor="#tag of tagsList; #index = index">
-  </tag-input-item>
+    *ngFor="let tag of tagsList; let index = index">
+  </tag>
   <input
     class="ng2-tag-input-field"
     type="text"
@@ -15,3 +15,4 @@
     (blur)="inputBlurred($event)"
     (focus)="inputFocused()"
     #tagInputRef>
+
