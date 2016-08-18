@@ -3,24 +3,35 @@
 
 Taggs for angular 2 apps.
 
-// In one of your application components
-import {TagInputComponent} from 'ng2-tags/ng2-tags';
+import it
 
-@Component({
-    selector: 'your-component-selector',
-    directives: [TagInputComponent] // Add to directives
-    template: `<tags placeholder="Expand Range" 
-    [(ngModelArray)]="data.contact_range" delimiterCode="188"   >
-                </tags>`
-})
-```
+    import {TagInputComponent} from 'ng2-tags/ng2-tags';
 
-## API
-### Inputs
-- `ngModelArray` : `string[]` - **Required** Property to store the resulting tag list in.
-- `placeholder` : `string` - **Default**: ``'Add a tag'`` - Placeholder for the `<input>` tag.
-- `delimiterCode` : `string` - **Default**: ``'188'`` - ASCII keycode to split tags on. Defaults to comma.
-- `addOnBlur` : `boolean` - **Default**: `true` - Whether to attempt to add a tag when the input loses focus.
-- `addOnEnter` : `boolean` - **Default**: `true` - Whether to attempt to add a tag when the user presses enter.
-- `addOnPaste` : `boolean` - **Default**: `true` - Whether to attempt to add a tags when the user pastes their clipboard contents.
-- `allowedTagsPattern` : `RegExp` - **Default**: `/.+/` - RegExp that must match for a tag to be added.
+include it
+
+    ....
+     directives: [TagInputComponent]
+    ....
+
+
+use it in html
+
+    <tags placeholder="Expand Range" 
+        [(ngModelArray)]="some_string_array" delimiterCode="188"   >
+    </tags>
+
+rest of api
+
+
+| Attribute | Type | required  | Description 
+| :---: | --- | --- | ---: |
+| **ngModelArray** | string[] | yes |  Property to store the resulting tag list in |
+| **placeholder** | string | no |  Placeholder for the `<input>` tag |
+| **delimiterCode** | string | no |  ASCII keycode to split tags on. Defaults to comma |
+| **addOnBlur** | boolean | no |  Whether to attempt to add a tag when the input loses focus |
+| **addOnEnter** | boolean | no |  Whether to attempt to add a tag when the user presses enter. |
+| **addOnPaste** | boolean | no |  Whether to attempt to add a tags when the user pastes their clipboard contents |
+| **allowedTagsPattern** | RegExp | no |  RegExp that must match for a tag to be added |
+
+
+
