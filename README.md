@@ -3,6 +3,8 @@
 
 Taggs for angular 2 apps.
 
+![module](screen.png)
+
 import it
 
     import {TagInputComponent} from 'ng2-tags/ng2-tags';
