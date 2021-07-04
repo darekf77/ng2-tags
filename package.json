@@ -36,7 +36,7 @@
     ]
   },
   "name": "ng2-tags",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Tags for angular 2",
   "main": "ng2-tags.ts",
   "dependencies": {
