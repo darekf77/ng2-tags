@@ -33,7 +33,8 @@
       "tags",
       "ng2-tags",
       "selectize"
-    ]
+    ],
+    "workerPlugins": {}
   },
   "name": "ng2-tags",
   "version": "0.0.12",

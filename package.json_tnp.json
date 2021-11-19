@@ -32,5 +32,6 @@
     "tags",
     "ng2-tags",
     "selectize"
-  ]
+  ],
+  "workerPlugins": {}
 }
