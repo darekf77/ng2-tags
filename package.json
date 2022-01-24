@@ -289,5 +289,8 @@
     "url": "https://github.com/darekf77/ng2-tags.git"
   },
   "homepage": "https://github.com/darekf77/ng2-tags#readme",
-  "private": true
+  "private": true,
+  "recreatedFrom": {
+    "tnp.json": true
+  }
 }
