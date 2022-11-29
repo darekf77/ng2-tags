@@ -35,7 +35,9 @@
       "selectize"
     ],
     "workerPlugins": {},
-    "linkedRepos": []
+    "linkedRepos": [],
+    "smartContainerTarget": "",
+    "smartContainerBuildTarget": ""
   },
   "name": "ng2-tags",
   "version": "0.0.12",
