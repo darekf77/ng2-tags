@@ -1,45 +1,4 @@
 {
-  "tnp": {
-    "resources": [],
-    "overrided": {
-      "linkedFolders": [],
-      "ignoreDepsPattern": [
-        "*"
-      ],
-      "includeAsDev": [],
-      "includeOnly": [],
-      "dependencies": {},
-      "npmFixes": []
-    },
-    "linkedProjects": [],
-    "smartContainerBuildTarget": "",
-    "linkedRepos": [],
-    "libReleaseOptions": {
-      "nodts": false,
-      "obscure": false,
-      "ugly": false,
-      "includeNodeModules": false
-    },
-    "version": "v2",
-    "type": "angular-lib",
-    "private": true,
-    "scripts": {
-      "test": "karma test"
-    },
-    "description": "Tags for angular 2",
-    "license": "ISC",
-    "author": "Dariusz Filipiak",
-    "homepage": "https://github.com/darekf77/ng2-tags#readme",
-    "main": "ng2-tags.ts",
-    "keywords": [
-      "anular2",
-      "angular 2",
-      "tags",
-      "ng2-tags",
-      "selectize"
-    ],
-    "workerPlugins": {}
-  },
   "dependencies": {},
   "devDependencies": {},
   "private": true,
